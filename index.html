@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>TI Final - Edgardo Marino</title>
+		<!-- Curso UTN Programación Web Frontend -->
+
+		<!-- Google fonts: Regular 400 - Bold 700"-> font-family: 'Open Sans', sans-serif; -->
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,600;1,700;1,800&family=Secular+One&display=swap" rel="stylesheet">
+		
+		<!-- Referencias Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		
+		<!-- Hojas estilos propia -->
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+
+	<body id="home">
+		<header>
+			<div class="container-fluid banda0 bg0">
+			</div>
+			<div class="container-fluid banda1-md bg1 p-2">
+				<h1 class="formatoTitulo">ACTUALIDAD DE CIENCIA & TECNOLOGÍA</h1>
+			</div>
+			<div class="container-fluid banda0 bg0">
+			</div>
+		</header>
+		<div class="container-fluid bg2 sticky-top">	
+			<nav class="navbar navbar-expand-lg navbar-light" style="background-color:bg2;">
+					
+				<!--logo del sitio-->
+				<a class="navbar-brand" href="#"><h5>AC&T</h5></a> 
+
+				<!--boton humburger-->
+				<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" 
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link enlaces" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link enlaces" href="articulo_0.html">Objetivo</a>
+						</li>
+						<!--dropdown / desplegable-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle enlaces" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Secciones</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:rgb(255, 217, 0);">
+								<a class="dropdown-item" href="#seccion_fisica">Física</a>
+								<a class="dropdown-item" href="#seccion_matematica">Matemática</a>
+								<a class="dropdown-item" href="#seccion_astronomia">Astronomía</a>
+								<a class="dropdown-item" href="#seccion_quimica">Química</a>
+								<a class="dropdown-item" href="#seccion_biologia">Biología</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link enlaces" href="form_contacto/contacto.html">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="container-fluid banda3">
+		</div>
+		
+		<div class="container-fluid">
+			<div class="row">
+				<section class="col-md-9">
+				
+				<!--componente Carrousel -->
+					<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<a href="https://www.investigacionyciencia.es/revistas/investigacion-y-ciencia/una-crisis-csmica-798/cartografiar-el-continente-helado-18546">
+								<img src="img/slide1.png" class="d-block w-100" alt="slide1">
+								</a>
+								<div class="carousel-caption d-none d-sm-block">
+									<h5>Cartografiar el continente helado</h5>
+									<p>Un nuevo mapa del sustrato rocoso de la Antártida podría mejorar las predicciones sobre el aumento del nivel del mar</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<a href="https://ferrosplanes.com/como-funciona-un-laser/">
+									<img src="img/slide2.png" class="d-block w-100" alt="slide2">
+								</a>
+								<div class="carousel-caption d-none d-sm-block">
+									<h5>¿Cómo funciona un láser?</h5>
+									<p>Lo explicamos de forma sencilla</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<a href="https://techxplore.com/news/2020-09-wildly-successful-tiktok-focus-us-china.html">
+									<img src="img/slide3.png" class="d-block w-100" alt="slide3">
+								</a>
+								<div class="carousel-caption d-none d-sm-block">
+									<h5>La exitosa App TikTok se convierte en el foco de la guerra entre Estados Unidos y China</h5>
+									<p>con videos de formato corto, se ha convertido en una sensación mundial en las 
+									redes sociales y, al mismo tiempo, se ha encontrado en el corazón de una
+										guerra geopolítica.</p>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</section>
+
+				<aside class="col m-2 p-5 d-none d-md-block">
+					<div class="text-center">
+						<h6>Acualidad en C&T</h6> 
+					</div> 
+					<div>
+						<a href="https://cienciahoy.org.ar/"> 
+							<img src="img/logoCienciaHoy.png" alt="" class="imgNota">
+						</a>
+					</div>
+					<div class="mt-2">
+						<a href="https://www.investigacionyciencia.es/">
+							<img src="img/logoInvestigacionCiencia.png" alt="" class="imgNota">
+						</a>
+					</div> 
+					<div class="mt-2">
+						<a href="https://phys.org/">
+							<img src="img/logoFhysOrg.png" alt="" class="imgNota">
+						</a>
+					</div> 
+				</aside>
+			</div>
+		</div>
+		<section class="container-fluid mt-4">
+        	<div class="row">
+				<article class="col-lg-3 col-md-6 col-sm-12">
+					<div class="mt-2">
+						<img class="img-fluid" src="img/planetaDescubierto.png" alt="">
+					</div>
+					<h3>Descubren un nuevo planeta en zona habitable</h3>
+					<p class="text-justify">Bautizado con el nombre de Kepler-1649c tendría características una segunda Tierra. Es el primer planeta de tamaño similar a nuestro mundo,
+						que se descubre orbitando en zona habitable alrededor de una estrella, dentro de nuestra galaxia o Vía Láctea.
+						¿A qué distancia está de nosotros? ¿Podría existir algún tipo de vida? Descubrí estas 
+						respuestas y más en el artículo que publicamos.
+					</p>	
+					<a href="articulo_1.html">Ver más</a>
+				</article>
+
+            	<article class="col-lg-3 col-md-6 col-sm-12">
+					<div class="mt-2">
+						<img class="img-fluid" src="img/coronaVirus.png" alt="">
+					</div>
+                	<h3>Avanza el desarrollo de vacunas contra el coronavirus</h3>
+					<p class="text-justify" >Los investigadores de diversos paises continúan trabajando para desarrollar vacunas que combatan el covid-19. 
+						Varios ensayos preliminares han comenzado a mostrar resultados positivos.
+						Estos son los hechos más recientes en la carrera por lograr una vacuna que frenaría la pandemia.
+					</p>	
+					<a href="articulo_2.html">Ver más</a>
+            	</article>
+
+            	<article class="col-lg-3 col-md-6 col-sm-12">
+					<div class="mt-2">
+						<img class="img-fluid" src="img/numeroPI.png" alt="">
+					</div>
+					<h3>¿Quién descubrió el número Pi? ¿Qué significa?</h3>
+					<p class="text-justify">Seguro que si te preguntan por el número Pi, rápidamente recitarás lo que aprendiste en la escuela: 
+						que equivale a 3,14159… Quizá también recuerdes que se utilizaba para resolver determinados problemas 
+						de geometría, pero en general, poco más. En la nota hemos querido acercarnos a este prodigio de las 
+						matemáticas para averiguar Quién descubrió el número Pi y Qué es Pi en Matemáticas.
+					</p>
+					<a href="https://es.wikipedia.org/wiki/N%C3%BAmero_%CF%80">Ver más</a>
+				</article>
+			
+				<article class="col-lg-3 col-md-6 col-sm-12">
+					<div class="mt-2">
+						<img class="img-fluid" src="img/fusionNuclear.png" alt="" >
+					</div>
+					<h3>¿Es la fusión nuclear la energía del futuro?</h3>
+					<p class="text-justify" >La tecnología para la fusión nuclear surgió alrededor de los años 50.
+						Desde 2006 la Unión Europea y otros seis países (China, Corea, Japón, India, Estados Unidos y
+						Rusia) se unieron para realizar el mayor reactor Tokamak del mundo, actualmente en construcción en Francia,
+						con el fin de demostrar el potencial de este tipo de energía para su comercialización. Todavía exiten dudas 
+						sobre la utilización de esta fuente de energía que en teoría resulta inagotable. 
+					</p>
+					<a href="https://www.xataka.com/investigacion/fusion-nuclear-que-retos-plantea-la-seguridad-de-esta-tecnologia-y-cuando-estara-lista">Ver más</a>
+            	</article>
+        
+				<div class="col bg-dark mt-3 p-1">
+				</div>
+    		</div>
+		</section>
+
+	 	<!--páginas de referencia interna por menú de navegación nav-->
+	 	<section id="seccion_fisica">
+			<div class="banda2"></div>
+			<div class="container-fluid">
+				<h2>Física</h2>
+				<p>La física (del latín physica, y este del griego antiguo φυσικός, «natural, relativo a la naturaleza»)
+				es la ciencia natural que estudia los componentes fundamentales del Universo, la energía, la materia, 
+				el espacio-tiempo y las interacciones fundamentales. La física es una ciencia básica estrechamente vinculada 
+				con las matemáticas y la lógica en la formulación y cuantificación de sus principios.
+				El alcance de la física es extraordinariamente amplio y puede incluir estudios tan diversos como la 
+				mecánica cuántica, la física teórica o la óptica. La física moderna se orienta a una 
+				especialización creciente, donde los investigadores tienden a enfocar áreas particulares más que a ser 
+				universalistas, como lo fueron Albert Einstein o Lev Landau, que trabajaron en una multiplicidad de áreas.
+				</p>
+			</div>
+			<a href="https://es.wikipedia.org/wiki/F%C3%ADsica">continuar...</a>
+
+			<div class="row">
+				<article class="col-lg-4 col-md-6 col-sm-12">
+					<div class="mt-2">
+						<img class="img-fluid" src="img/img_aticulo.jpg" alt="">
+					</div>
+				<!-- <div class="bg-dark" py-5>
+						prueba color
+					</div>-->
+					<h3>Título del artículo</h3>
+					<p class="text-justify">Lorem ipsum dolor sit amet 
+						consectetur adipisicing elit. Eum autem quasi totam sunt animi 
+						incidunt, officia amet nam ea culpa sint perspiciatis nostrum aut 
+						voluptas accusantium modi ducimus inventore voluptatibus.
+					</p>	
+					<a href="">Ver más</a>
+				</article>
+				<article class="col-lg-4 col-md-6 col-sm-12">
+					<div class="mt-2">
+						<img class="img-fluid" src="img/img_aticulo.jpg" alt="">
+					</div>
+					<h3>Título del artículo</h3>
+					<p class="text-justify">Lorem ipsum dolor sit amet 
+						consectetur adipisicing elit. Eum autem quasi totam sunt animi 
+						incidunt, officia amet nam ea culpa sint perspiciatis nostrum aut 
+						voluptas accusantium modi ducimus inventore voluptatibus.
+					</p>	
+					<a href="">Ver más</a>
+				</article>
+
+				<article class="col-lg-4 col-md-6 col-sm-12">
+					<div class="mt-2">
+						<img class="img-fluid" src="img/img_aticulo.jpg" alt="">
+					</div>
+					<h3>Título del artículo</h3>
+					<p class="text-justify">Lorem ipsum dolor sit amet 
+						consectetur adipisicing elit. Eum autem quasi totam sunt animi 
+						incidunt, officia amet nam ea culpa sint perspiciatis nostrum aut 
+						voluptas accusantium modi ducimus inventore voluptatibus.
+					</p>	
+					<a href="">Ver más</a>
+				</article>
+				
+				<article class="col-lg-4 col-md-6 col-sm-12">
+					<div class="mt-2">
+						<img class="img-fluid" src="img/img_aticulo.jpg" alt="">
+					</div>
+					<h3>Título del artículo</h3>
+					<p class="text-justify">Lorem ipsum dolor sit amet 
+						consectetur adipisicing elit. Eum autem quasi totam sunt animi 
+						incidunt, officia amet nam ea culpa sint perspiciatis nostrum aut 
+						voluptas accusantium modi ducimus inventore voluptatibus.
+					</p>	
+					<a href="">Ver más</a>
+				</article>
+
+				<article class="col-lg-4 col-md-6 col-sm-12">
+					<div class="mt-2">
+						<img class="img-fluid" src="img/img_aticulo.jpg" alt="">
+					</div>
+					<h3>Título del artículo</h3>
+					<p class="text-justify">Lorem ipsum dolor sit amet 
+						consectetur adipisicing elit. Eum autem quasi totam sunt animi 
+						incidunt, officia amet nam ea culpa sint perspiciatis nostrum aut 
+						voluptas accusantium modi ducimus inventore voluptatibus.
+					</p>	
+					<a href="">Ver más</a>
+				</article>
+				<article class="col-lg-4 col-md-6 col-sm-12">
+					<div class="mt-2">
+						<img class="img-fluid" src="img/img_aticulo.jpg" alt="">
+					</div>
+					<h3>Título del artículo</h3>
+					<p class="text-justify">Lorem ipsum dolor sit amet 
+						consectetur adipisicing elit. Eum autem quasi totam sunt animi 
+						incidunt, officia amet nam ea culpa sint perspiciatis nostrum aut 
+						voluptas accusantium modi ducimus inventore voluptatibus.
+					</p>	
+					<a href="">Ver más</a>
+				</article>
+			</div>
+		</section>
+		<a href="#home">Home</a>
+		<div class="col bg-dark mt-3 p-1">
+		</div>
+
+		<section id="seccion_matematica">
+			<div class="banda2"></div>
+			<h2>Matemática</h2>
+			<p>Las matemáticas o la matemática (del latín mathematĭca, y este del griego μαθηματικά, derivado de 
+				μάθημα, ‘conocimiento’) es una ciencia formal que, partiendo de axiomas y siguiendo el razonamiento 
+				lógico, estudia las propiedades y relaciones entre entidades abstractas como números, figuras 
+				geométricas, iconos, glifos, o símbolos en general. La matemática es un conjunto de lenguajes 
+				formales que pueden ser usados como herramienta para plantear problemas de manera no ambigua en
+				contextos específicos. Por ejemplo, el siguiente enunciado podemos decirlo de dos formas:
+				X es mayor que Y e Y es mayor que Z, o forma simplificada podemos decir que X > Y > Z. Este es el
+				motivo por el cual las matemáticas son tan solo un lenguaje simplificado con una herramienta 
+				para cada problema específico (por ejemplo 2+2= 4, o 2x2= 4). </p>
+			<a href="https://es.wikipedia.org/wiki/Matem%C3%A1ticas">continuar...</a>
+		
+		<!--Aqui irían los artículos de esta sección, idem formato "física"-->
+
+		</section>
+			<a href="#home">Home</a>		
+			<div class="col bg-dark mt-3 p-1">
+			</div>
+
+		<section id="seccion_astronomia">
+			<div class="banda2"></div>
+			<h2>Astronomía</h2>
+			<p></p>
+		<!--Aqui irían los artículos de esta sección, idem formato "física"-->
+
+
+			
+		</section>
+		<a href="#home">Home</a>
+		<div class="col bg-dark mt-3 p-1">
+		</div>
+
+
+		<section id="seccion_quimica">
+			<div class="banda2"></div>
+			<h2>Química</h2>
+		<!--Aqui irían los artículos de esta sección, idem formato "física"-->
+			
+		</section>
+		<a href="#home">Home</a>
+		<div class="col bg-dark mt-3 p-1">
+		</div>
+
+		<section id="seccion_biologia">
+			<div class="banda2"></div>
+			<h2>Biología</h2>
+		<!--Aqui irían los artículos de esta sección, idem formato "física"-->
+			
+		</section>
+		<a href="#home">Home</a>
+		<div class="col bg-dark mt-3 p-1">
+		</div>
+
+		<footer class="bg3 text-white mt-5 p-5 text-center">
+				&copy;2020 - Actualidad de Ciencia y Tecnología (AC&T) - Derechos Reservados
+		</footer>
+
+		<!--Instalación librería JS de Bootstrap para funcionalidad con JS / componentes --> 
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</body>
+</html>
