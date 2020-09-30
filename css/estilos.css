@@ -1,0 +1,80 @@
+*{margin: 0;padding:0; font-family: 'Open Sans', sans-serif;
+  font-family: 'Secular One', sans-serif;}
+
+.bg0{background: #eceae8 ;}
+.bg1{background: #f19346 }
+.bg2{background: #27ae60}
+.bg3{background: #1776b6}
+
+.banda0{
+  height:20px;
+}
+
+.banda1{
+  height:60px;
+}
+
+.banda2{
+    height:50px;
+}
+
+.banda3{
+  height:30px;
+}
+
+.formatoTitulo{
+  font-family:'Secular One';
+  color: white;
+  text-align: center;
+}
+
+.imgNota{
+  width: 100%;
+  margin: 4px;
+  padding: 2px;
+  box-shadow: 10px 10px 10px gainsboro;
+}
+
+.imgNota:hover{
+  filter: grayscale(0.5) blur(2px);
+}
+
+.imgNotalink{
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: 10px 10px 10px gainsboro;
+}
+
+#navbarNav .enlaces:hover{
+  background:rgb(208, 220, 238);
+  color: #5d4e75;
+}
+
+#seccion_fisica,#seccion_matematica,#seccion_astronomia,#seccion_quimica,#seccion_biologia {
+  margin-top: 20px;
+  /*height: 600px;*/
+  padding: 0.75em;
+  color:rgb(4, 4, 80);
+  text-align: justify;
+}
+
+#seccion_fisica{
+  background: rgb(240, 234, 235);
+}
+#seccion_matematica{
+  background: lawngreen;
+  height: 600px; /*la altura es solo para desplegar la sección, hasta poner los div responsive*/ 
+}
+#seccion_astronomia{
+  background: rgb(216, 202, 201);
+  height: 600px;
+}
+#seccion_quimica{
+  background-color: rgb(212, 240, 235);
+  height: 600px;
+}
+#seccion_biologia{
+  background-color: rgb(233, 240, 245);
+  height: 600px;
+}
